@@ -1,0 +1,753 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: JobHelp
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1.  Job Post Style
+    2.  Fun Factor Area
+    3.  Advertise Area
+    4.  Testimonial Area
+    5.  Blog Area
+    6.  Job Board Page
+    7.  Single Job Post Page
+    8.  Candidates Page
+    9.  Job Details Page
+    10.  Blog Page
+    11.  Account Page
+    12.  Contact Page
+    13.  Other Page CSS
+	
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Job Post Style
+/*----------------------------------------*/
+.single-job-post {
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e3;
+    position: relative
+}
+.job-title {position: relative;}
+.job-title:after {
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 4px;
+}
+.single-job-post:hover .job-title {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.single-job-post:hover .job-title:after {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.job-title a {display: block;}
+.job-title a img {border: 1px solid #E5E5E5}
+.job-title h4 {font-family: "montserratregular";}
+.job-title h5 {color: #646464; font-family: "montserratsemi_bold";}
+.address span {color: #6d6d6d; line-height: 24px;}
+.time-payment span {
+    color: #6d6d6d;
+    font-family: "montserratsemi_bold";
+    font-size: 18px;
+    line-height: 24px
+}
+.stime-payment a.button {
+	padding: 0;
+	text-align: center;
+	width: 121px;
+	font-size: 14px
+}
+.single-job-post:last-child {border-bottom: 1px solid #e3e3e3;}
+a.button.large-button {line-height: 33px; padding: 0 30px}
+/*----------------------------------------*/
+/*  2.  Fun Factor Area
+/*----------------------------------------*/
+.single-fun-factor h3 {
+	font-family: "montserratsemi_bold";
+	font-size: 32px;
+	line-height: 27px;
+	position: relative;
+}
+.single-fun-factor > h1 {font-size: 52px; line-height: 39px;}
+.single-fun-factor h3:after {
+    background: #6d6d6d none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 71px;
+}
+/*----------------------------------------*/
+/*  3.  Advertise Area
+/*----------------------------------------*/
+.advertise-content > h3 {
+    color: #696969;
+    font-size: 30px;
+    line-height: 38px;
+    position: relative
+}
+.advertise-content h3:before {
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 38%;
+}
+/*----------------------------------------*/
+/*  4.  Testimonial Area
+/*----------------------------------------*/
+.testimonial-carousel .testimonial-img > img {
+	border: 3px solid #ffffff;
+	border-radius: 50%;
+	height: 143px;
+	margin: auto;
+	width: 143px;
+}
+.testimonial-name {font-family: "montserratsemi_bold"; font-size: 24px;}
+.testimonial-title {font-family: "montserratregular"; font-size: 14px;}
+.testimonial-text {position: relative;}
+.testimonial-text:after {
+    background: #ffffff none repeat scroll 0 0;
+    content: "";
+    height: 31px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    width: 2px;
+    z-index: 9;
+}
+/*----------------------------------------*/
+/*  5.  Blog Area
+/*----------------------------------------*/
+.box-hover a {display: block; position: relative;}
+.box-hover > a:after {
+    background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+}
+.hover-effect:hover .box-hover > a:after {
+    bottom: 20px;
+    left: 20px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    right: 20px;
+    top: 20px;
+}
+.hover-effect:hover .box-hover.hover-large > a:after {bottom: 88px; top: 88px;}
+.blog-image {border-bottom: 4px solid transparent;}
+.blog-image img {width: 100%;}
+.blog-date {
+	display: inline-block;
+	font-family: "montserratregular";
+	height: 66px;
+	line-height: 24px;
+	text-align: center;
+	width: 77px;
+}
+.blog-date span.text-large {font-family: "montserratsemi_bold"; font-size: 30px;}
+.blog-post-info > span {
+    color: #8e8e8e;
+    display: inline-block;
+    font-size: 12px;
+}
+.blog-post-info {display: inline-block;}
+.blog-post-info > span i{bottom: -2px; position: relative}
+.blog-text > h5 {color: #5c5c5c; font-family: "montserratsemi_bold";}
+.blog-text > p {color: #8e8e8e; font-size: 12px;}
+/*----------------------------------------*/
+/*  6.  Job Board Page
+/*----------------------------------------*/
+.breadcrumb-text {z-index: 9; position: relative;}
+.breadcrumb-bar .breadcrumb {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	line-height: 12px;
+	padding: 8px 0;
+}
+.breadcrumb-text h2 {line-height: 25px;}
+.breadcrumb-bar li {
+    font-family: "montserratregular";
+    font-size: 12px;
+    line-height: 12px;
+    position: relative;
+}
+.breadcrumb-bar .breadcrumb > li:first-child:before {
+	border-radius: 50%;
+	color: #eaeaea;
+	content: "/";
+	display: inline-block;
+	font-family: "Material-Design-Iconic-Font";
+	font-size: 18px;
+	position: absolute;
+	right: -20px;
+	top: -1px;
+}
+.breadcrumb-bar .breadcrumb > li + li:before {display: none;}
+.breadcrumb-bar a {color: #ffffff;}
+.form-container {
+    color: #555454;
+    font-family: "montserratregular";
+    font-size: 12px;
+    padding: 38px 180px;
+    position: relative;
+    z-index: 3;
+}
+.box-select {z-index: 9; position: relative}
+.select {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+.select.large {width: 260px;}
+.select.small {width: 190px;}
+.select.medium {width: 200px;}
+.select select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: #ffffff url("images/icons/arrow.png") no-repeat scroll 92% 50%;
+	border: medium none;
+	color: #555454;
+	cursor: pointer;
+	font-size: 13px;
+	height: 42px;
+	padding: 0 16px;
+	width: 100%;
+}
+/*----------------------------------------*/
+/*  7.  Single Job Post Page
+/*----------------------------------------*/
+.single-info label {
+	color: #525252;
+	font-family: "montserratsemi_bold";
+	font-size: 14px;
+	width: 160px;
+	line-height: 34px;
+}
+.single-info input{
+	font-size: 12px;
+	color: #a2a2a2;
+	font-family: 'montserratlight';
+	height: 36px;
+	border: 1px solid #DEDEDE;
+	background: #fff
+}
+.single-info input.dark-border {border-color: #a2a2a2;}
+.area-title > h2, .border-title {
+    border: 1px solid #525252;
+    color: #525252;
+    font-family: "montserratregular";
+    font-size: 24px;
+}
+.border-title {font-size: 16px; border: 1px solid #A2A2A2}
+.background-title {
+    font-size: 16px;
+    color: #fff;
+    font-family: "montserratregular";
+}
+.title > span {
+    border: 1px solid #dedede;
+    color: #606060;
+    display: inline-block;
+    font-family: "montserratregular";
+    padding: 7px 23px;
+}
+.title > span.lg {padding: 7px 46px}
+.title > span.medium {padding: 7px 31px}
+.text-style span {color: #525252; display: inline-block;}
+.text-style {background: #f0f0f0 none repeat scroll 0 0;}
+textarea.textarea {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-left: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    font-size: 12px;
+    color: #a2a2a2;
+    font-family: 'montserratlight';
+    height: 150px;
+    border: 1px solid #DEDEDE;
+    resize: none
+}
+textarea.textarea.small{height: 120px}
+.uploader, .photo-uploader {
+    position: relative;
+    height: 36px;
+    border: 1px solid #dedede;
+    width: 310px
+}
+.photo-uploader {width: 79.1%;}
+#fileupload > input, .fileupload #fileupload {
+	-moz-appearance: none;
+	border: 0 none;
+	color: #ffffff;
+	cursor: pointer;
+	height: 100%;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+.filename {
+	color: #a2a2a2;
+	cursor: default;
+	display: block;
+	float: left;
+	font-size: 12px;
+	height: 100%;
+	line-height: 34px;
+	overflow: hidden;
+	padding: 0 10px;
+	width: 65%;
+}
+.action {
+	color: #5e5e5e;
+	font-size: 12px;
+	height: 100%;
+	overflow: hidden;
+	text-align: right;
+	float: right;
+	line-height: 34px;
+	padding-right: 14px;
+	font-family: 'montserratlight';
+}
+.action i{font-size: 12px; margin-right: 7px}
+.photo-uploader .action {
+	color: #ffffff;
+	font-family: "montserratregular";
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 102px;
+}
+.max-size {
+	color: #a2a2a2;
+	font-family: "montserratlight";
+	font-size: 12px;
+	line-height: 36px;
+}
+/*----------------------------------------*/
+/*  8.  Candidates Page
+/*----------------------------------------*/
+.keyword a.button {text-transform: lowercase; font-size: 14px}
+.breadcrumb-list > li {
+	display: inline-block;
+	float: none;
+	margin-left: 22px;
+	position: relative;
+}
+.breadcrumb-list > li:after {
+	color: #ffffff;
+	content: "/";
+	left: -14px;
+	position: absolute;
+	top: 2px;
+}
+.breadcrumb-list > li:first-child {margin-left: 0;}
+.breadcrumb-list > li:first-child:after {content: "";}
+/*----------------------------------------*/
+/*  9.  Job Details Page
+/*----------------------------------------*/
+.mark-icon, .number {line-height: 28px; position: relative;}
+.mark-icon:after {
+	content: "";
+	font-family: "Material-Design-Iconic-Font";
+	font-size: 18px;
+	left: 0;
+	position: absolute;
+	top: -1px;
+}
+.number > span {
+	display: inline-block;
+	font-family: "montserratregular";
+	width: 20px;
+}
+/*----------------------------------------*/
+/*  10.  Blog Page
+/*----------------------------------------*/
+.sidebar-widget-title h4 {
+	color: #3e3e3e;
+	font-family: "montserratregular";
+	font-size: 24px;
+	line-height: 21px;
+}
+.search-container input {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #efefef;
+    color: #979797;
+    font-size: 12px;
+    font-weight: 300;
+    height: 40px;
+    padding: 0 17px;
+}
+.sidebar-widget-lists > li a {color: #616161;}
+.sidebar-widget-lists > li a:hover {padding-left: 5px}
+.sidebar-widget-lists > li {border-bottom: 1px solid #eaeaea; line-height: 18px;}
+.sidebar-widget-lists > li:last-child {border: 0 none;}
+.recent-post-item h5 {color: #5c5c5c; font-family: "montserratregular";}
+.recent-post-item span {color: #616161;}
+.recent-post-item {border-bottom: 1px solid #eaeaea;}
+.recent-post-item:last-child {border: 0 none;}
+.blog-post-info > span.l-text {font-size: 14px;}
+.blog-text > h5.l-text {font-size: 24px;}
+.tags-and-links {border-bottom: 1px solid #ebebeb; border-top: 1px solid #ebebeb;}
+.tags-and-links span {color: #747474; font-weight: 500;}
+.tags > li {display: inline-block;}
+.tags > li a {color: #8e8e8e; padding: 0 2px;}
+.tags > li a:hover {color: #13B0BA;}
+.tags {display: inline-block;}
+.social-links {display: inline-block;}
+.tags-and-links .social-links a {
+    margin: 0 0 0 14px;
+    padding: 0;
+    width: auto;
+    height: auto
+}
+.tags-and-links .social-links a i {font-size: 14px; line-height: 17px;}
+.tags-and-links .social-links a:hover {background: transparent;}
+.comments {color: #4c4c4c;}
+h4.title {
+	color: #4c4c4c;
+	font-family: "montserratregular";
+	font-size: 24px;
+	position: relative;
+}
+h4.title:after {
+    bottom: 2px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 73px;
+}
+.author-image {
+    border: 2px solid #eaeaea;
+    border-radius: 2px;
+    float: left;
+    height: 67px;
+    margin-right: 23px;
+    width: 67px;
+}
+.author-image > img {width: 100%;}
+.comment-text {border-bottom: 1px solid #f0f0f0;}
+.author-info > h4 {
+    display: inline-block;
+    font-family: "montserratregular";
+    font-size: 18px;
+    line-height: 21px;
+}
+.author-info > h4 a {color: #4c4c4c;}
+span.reply a:hover {color: #2D3E50;}
+.comment-time, span.reply {
+    float: right;
+    font-family: "montserratregular";
+    line-height: 22px;
+}
+span.comment-time {padding-right: 3px; position: relative;}
+.comment-text > p {
+	color: #4c4c4c;
+	font-weight: 300;
+	line-height: 20px;
+}
+.single-comment.comment-reply {padding-left: 131px;}
+.comments .single-comment:last-child {margin-bottom: 0;}
+/*----------------------------------------*/
+/*  11.  Account Page
+/*----------------------------------------*/
+.single-info label.lg-text {font-family: "montserratregular"; font-size: 16px;}
+p.panel-title {
+	color: #414141;
+	font-size: 14px;
+	font-weight: 500;
+}
+.conditions {
+    color: #959595;
+    font-family: "montserratlight";
+    font-size: 14px;
+}
+.conditions input[type="radio"], input[type="checkbox"] {
+	border: 1px solid #e3e3e3;
+	height: 17px;
+	margin: 0 10px 0 0;
+	padding: 0;
+	position: relative;
+	top: -1px;
+	width: 20px;
+}
+.conditions input[type="radio"]:focus, input[type="checkbox"]:focus {outline: 0 none;}
+.modal .modal-header {
+    border: 0 none;
+    min-height: auto;
+    padding: 0;
+}
+.modal {
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 99999
+}
+.modal-dialog {
+	bottom: 0;
+	color: #ffffff;
+	height: 432px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	text-align: left;
+	top: 0;
+	width: 465px;
+}
+.modal-dialog.register{height: 555px}
+.modal-body {padding: 0}
+.form-pop-up-content {background: #ffffff none repeat scroll 0 0;}
+.form-pop-up-content .area-title h2 {
+	border-color: #cccccc;
+	display: inline-block;
+	font-size: 18px;
+}
+.form-pop-up-content .area-title h2 {
+    border-color: #cccccc;
+    display: inline-block;
+    font-size: 18px;
+}
+.form-box > input {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    color: #959595;
+    font-family: "montserratlight";
+    height: 36px;
+    padding: 0 16px;
+}
+.modal-dialog button.close {
+	border-radius: 50%;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 18px;
+	height: 28px;
+	line-height: 13px;
+	margin-top: 0;
+	opacity: 1;
+	position: absolute;
+	right: -13px;
+	text-align: center;
+	text-transform: uppercase;
+	top: -11px;
+	width: 28px;
+}
+.modal-dialog button.close:after {display: none}
+.form-pop-up-content span a {font-family: "montserratlight"; font-size: 12px;}
+.remember {
+    color: #959595;
+    font-family: "montserratlight";
+    font-size: 12px;
+}
+.remember input[type="checkbox"] {
+	height: 14px;
+	margin-right: 6px;
+	position: relative;
+	top: -1px;
+	width: 15px;
+}
+.form-pop-up-content button {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 34px;
+	width: 187px;
+}
+.signup-form #form-pop-up {height: 598px; top: 47.2%;}
+/*----------------------------------------*/
+/*  12.  Contact Page
+/*----------------------------------------*/
+.contact-form-and-info {width: 922px; margin: auto;}
+.contact-form {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: -193px auto 0;
+    position: relative;
+    z-index: 9;
+}
+.contact-form.form-box {margin: 100px 0;}
+.single-contact-icon {
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-table;
+    font-size: 22px;
+    height: 42px;
+    margin: auto;
+    width: 42px;
+}
+.single-contact-icon i {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 22px
+}
+.single-contact-info:hover i {
+    -webkit-animation: 500ms ease-in-out 0s normal none 1 running bounceIn;
+        animation: 500ms ease-in-out 0s normal none 1 running bounceIn;
+}
+.single-contact-text {
+    color: #4c4c4c;
+    font-family: montserratlight;
+    line-height: 24px;
+}
+.contact-form label {
+    color: #9a9a9a;
+    font-family: "montserratlight";
+    font-weight: 300;
+}
+.contact-form input, .contact-form textarea {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border: 0 none;
+    color: #b8b8b8;
+    font-size: 12px;
+    height: 40px;
+}
+.contact-form textarea {height: 150px; padding-left: 20px}
+.submit-btn {
+	font-size: 14px;
+	line-height: 38px;
+	padding: 0 42px;
+	color: #fff;
+}
+.single-contact-info {width: 33.3333%; float: left;}
+/*----------------------------------------*/
+/*  13.  Other Page CSS
+/*----------------------------------------*/
+.fixed-bg-1 {background: rgba(0, 0, 0, 0) url("images/slider/1.jpg") no-repeat fixed center top / cover ;}
+.fixed-bg-2 {background: rgba(0, 0, 0, 0) url("images/slider/2.jpg") no-repeat fixed center top / cover ;}
+.banner-content h1.border-none:after {display: none;}
+.video-wrapper, .video-banner {
+    height: 570px;
+    overflow: hidden;
+    position: relative;
+}
+.gallery-img, .gallery-img img {width: 100%;}
+.gallery-img {overflow: hidden; position: relative;}
+.gallery-img img {
+    display: block;
+    position: relative;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transition: all 0.7s ease-in-out 0s;
+    transition: all 0.7s ease-in-out 0s;
+}
+.gallery-img .hover-effect {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: all 0.5s linear 0s;
+    transition: all 0.5s linear 0s;
+    width: 100%;
+}
+.gallery-img h2 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff !important;
+    font-size: 17px;
+    line-height: 28px;
+    margin: 60px auto 10px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    padding: 9px 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: all 0.5s linear 0s;
+    transition: all 0.5s linear 0s;
+}
+.gallery-img p {
+    color: #ffffff;
+    margin: 0 30px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    text-align: center;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: all 0.5s linear 0s;
+    transition: all 0.5s linear 0s;
+}
+.gallery-img:hover img {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+}
+.gallery-img:hover .hover-effect {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.gallery-img:hover h2, .gallery-img:hover p {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+.header-logo-menu.stick.semi-transparent, .gallery-img, .gallery-img .hover-effect {
+	background: rgba(46, 63, 81, 0.85) none repeat scroll 0 0;
+}
+.video-gallery {
+    display: block;
+    height: 215px;
+    overflow: hidden;
+}
+.video-gallery .mbYTP_wrapper {height: 215px;}
+.video-post .mbYTP_wrapper {height: 335px;}
+.video-post .mb_YTPlayer, .video-gallery .mb_YTPlayer {height: 100%;}
+.mb_YTPBar span.mb_OnlyYT {left: auto; right: 68px;}
+.mb_YTPUrl.ytpicon {display: none !important;}
+
+
+.video-post iframe {
+  border: medium none;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

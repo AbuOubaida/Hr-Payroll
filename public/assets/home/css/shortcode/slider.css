@@ -1,0 +1,79 @@
+/* -----------------------------------
+Template:  Jobhelp
+
+NOTE: This is Slider style file. All Slider related style included in this file.
+
+--------------------------------------*/
+.preview-2 .nivo-directionNav {display: none;}
+.slider-area, .background-area {position: relative}
+.background-area {overflow: hidden}
+.slider-area img, .background-area img {width: 100%}
+.slider-area:before, .background-area:before {
+    -webkit-animation: 1300ms ease-in-out 0s normal none 1 running slideInLeft;
+            animation: 1300ms ease-in-out 0s normal none 1 running slideInLeft;
+    background: rgba(45, 62, 80, 0.5);
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.background-area.no-animation:before {-webkit-animation: none;animation: none}
+.slider-area.no-overlay:before, .background-area.no-overlay:before, .preview-2 .nivo-controlNav {display: none}
+.nivo-caption {z-index: 9;}
+.background-area, .banner-content, .banner-content .container, .banner-content .row, .banner-content .col-md-12, .banner-content .text-content-wrapper, .banner-content .text-content {
+    height: 100%;
+    margin: auto;
+}
+.banner-content .text-content-wrapper {
+    display: table;
+    float: right;
+    margin-right: 80px;
+}
+.banner-content .text-content-wrapper.m-0 {
+    margin-right: 0px;
+}
+.banner-content .text-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+h1.title1 {
+    font-family: "montserratextrabold";
+    font-size: 70px;
+}
+h1.title1.text-medium {
+    font-size: 60px;
+    line-height: 65px;
+}
+p.sub-title {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+}
+.banner-readmore {
+    clear: both;
+    display: inline-block;
+    line-height: 50px;
+}
+.button.slider-btn {
+    font-family: "montserratsemi_bold";
+    font-size: 18px;
+    padding: 10px 41px;
+}
+.background-area .button-default {display: inline}
+.banner-content.static-text {
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 9;
+}
+.banner-content .text-content-wrapper.full-width {
+	float: none;
+	margin: auto;
+	position: relative;
+	z-index: 9;
+}

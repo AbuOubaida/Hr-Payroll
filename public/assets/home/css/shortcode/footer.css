@@ -1,0 +1,150 @@
+/* -----------------------------------
+Template:  Jobhelp
+
+NOTE: This is Footer style file. All footer related style included in this file.
+
+--------------------------------------*/
+/*social link area*/
+.social-links a {
+    background: #ffffff none repeat scroll 0 0;
+    color: #2d3e50;
+    display: inline-block;
+    height: 31px;
+    margin: 8px 5px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 31px;
+}
+.social-links a:last-child {margin-right: 0;}
+.social-links a i {font-size: 20px; line-height: 31px;}
+.social-links a:hover i {color: #ffffff;}
+/*footer widget*/
+.single-footer-widget {font-weight: 300;}
+.single-footer-widget > h3 {
+    font-family: 'montserratregular';
+    font-size: 24px;
+    line-height: 19px;
+}
+.single-footer-widget p {font-size: 12px;}
+.single-footer-widget > span {display: block; line-height: 24px;}
+.single-footer-widget > span i {font-size: 18px; width: 30px;}
+.footer-list a:hover {padding-left: 9px}
+.footer-list a {color: #ffffff; line-height: 28px;}
+.footer-text {
+    font-family: "montserratlight";
+    font-size: 12px;
+    line-height: 14px;
+}
+.footer-text span span {font-family: "montserratsemi_bold";}
+.footer-text a:hover {border-bottom: 1px solid #ffffff; color: #ffffff;}
+.blue-bg .footer-list a:hover {color: #2d3e50;}
+.footer-info {line-height: 15px;}
+.footer-info > span {
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 12px;
+    margin-right: 14px;
+}
+.footer-info > span i {
+    font-size: 14px;
+    margin-right: 11px;
+}
+.footer-info > span:last-child {margin-right: 0;}
+.footer-logo-three > a {
+    display: inline-block;
+    margin-bottom: 23px;
+}
+.footer-info-container {border-bottom: 1px solid #e1e1e1;}
+.single-footer-widget > h4 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+.footer-widget-list li a {
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 36px;
+}
+.footer-widget-list li:last-child a {}
+.subscribe-container {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 4px;
+    padding: 44px 40px 50px;
+}
+.subscribe-container > p {
+    color: #2D3E50;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.subscribe-container input {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: 0 none;
+	color: #ffffff;
+	font-weight: 400;
+	opacity: 1;
+	padding-left: 14px;
+	width: 100%;
+	height: 100%;
+}
+.subscribe-container input::-webkit-input-placeholder {
+    color:#fff;
+    opacity: 1 !important;
+    filter: alpha(opacity=100);
+}
+.subscribe-container button {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: 0 none;
+	color: #ffffff;
+	float: right;
+	font-size: 14px;
+	height: 100%;
+	padding-right: 14px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.subscribe-container button:hover:after{display: none}
+.subscribe-form-three {
+	background: #14b1bb none repeat scroll 0 0;
+	display: block;
+	height: 48px;
+	line-height: 46px;
+	position: relative;
+}
+.footer-container {
+    border-top: 1px solid #e1e1e1;
+    padding: 13px 0 10px 0;
+}
+.footer-container .social-links-three {
+    float: right;
+    overflow: hidden;
+}
+.footer-container .social-links-three > a {
+	color: #ffffff;
+	margin-left: 21px;
+	margin-right: 0;
+	line-height: 16px;
+}
+.footer-container span {
+    color: #ffffff;
+    font-weight: 400;
+}
+.footer-container span a {
+    color: #ffffff;
+    position: relative;
+}
+.footer-container span a:hover {border-bottom:  1px solid #fff}
+.footer-container span a:hover:after{opacity: 1;filter: alpha(opacity=100)}
+.newsletter-area.newsletter-four::before, .newsletter-area.newsletter-four::after {
+    display: none;
+}
+.footer-widget-four .footer-list li a:hover {color: #2D3E50;}
+.footer-widget-four .footer-img a::before {
+    background: rgba(45, 62, 80, 0.9) none repeat scroll 0 0;
+}
+.footer-area.footer-four {background: #2D3E50;}

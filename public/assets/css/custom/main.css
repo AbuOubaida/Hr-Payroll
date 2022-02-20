@@ -1,0 +1,48 @@
+th{
+    vertical-align: initial;
+}
+.z-index-1{
+    z-index: 10000;
+}
+.error-alert{
+    top: -30px;
+    left: 30%;
+    right: -22px;
+}
+.cover-image-section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* z-index: 1; */
+    display: block;
+    width: 100%;
+    /*height: auto;*/
+    min-height: 300px;
+    /*background-size: 100vw 100vh;*/
+}
+.profile-pic-lg{
+    width: 150px;
+    height: 150px;
+}
+.department-title{
+}
+.dep-info{
+    min-height: 300px;
+}
+.bg-grd-white-black{
+    background: linear-gradient(rgb(255 255 255 / 100%), rgb(25 28 36));
+}
+.row-r{
+    margin-right: -15px;
+}
+.form-group select,option,input {
+    color: #f1f4f5;
+}
+.form-control:focus {
+    color: #f1f4f5!important;
+}
+.btn-style-none{
+    border-style: none;
+    background: none;
+}

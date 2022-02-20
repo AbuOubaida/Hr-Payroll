@@ -1,0 +1,190 @@
+/* -----------------------------------
+Template:  Jobhelp
+
+NOTE: This is Header style file. All Header related style included in this file.
+
+--------------------------------------*/
+/*menu style */
+.header-area{z-index: 10; position: relative;}
+nav#primary-menu {display: inline-block; float: left;}
+.main-menu > li > a {
+	color: #F4F4F4;
+	display: block;
+	font-family: "montserratregular";
+	line-height: 24px;
+	padding: 38px 12px;
+	text-transform: uppercase;
+}
+.main-menu.text-white > li > a {color: #ffffff;}
+.main-menu.text-white > li:hover > a {color: #2d3e50;}
+.main-menu li {display: inline-block; position: relative;}
+.fixed.sticky .main-menu.text-white > li > a {color: #2d3e50;}
+/*Dropdown Style*/
+.dropdown, .mega-menu-area, ul.dropdown > li > ul.inside-menu {
+    background: #ffffff none repeat scroll 0 0;
+    border-top: 2px solid transparent;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    left: 0;
+    padding: 16px 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    -webkit-transform-origin: 0 0 0;
+            transform-origin: 0 0 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 195px;
+    z-index: 999;
+}
+.dropdown li, .single-mega-item li{display: block;}
+.dropdown li a, .single-mega-item li a {
+	color: #2D3E50;
+	display: block;
+	padding: 11px 22px;
+}
+.main-menu li:hover .dropdown, .main-menu li:hover .mega-menu-area, ul.dropdown > li > ul.inside-menu{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	visibility: visible;
+}
+.main-menu li > ul.dropdown i {
+	float: right;
+	font-size: 17px;
+	position: relative;
+	top: -1px;
+}
+ul.dropdown > li > ul.inside-menu {
+    left: 195px;
+    top: -2px;
+    width: 195px;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: 0 0 0;
+            transform-origin: 0 0 0;
+    -webkit-transition: all 0.6s ease 0s;
+            transition: all 0.6s ease 0s;
+}
+ul.dropdown > li:hover > ul.inside-menu {
+    opacity: 1;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    z-index: 9999;
+}
+.dropdown li a:hover, .single-mega-item li a:hover { padding-left: 27px}
+.mega-menu-area {
+	left: 0;
+	padding: 26px 21px 20px;
+	width: 100%;
+}
+.main-menu li.mega-parent {position: static;}
+.single-mega-item li.block {
+	color: #2d3e50;
+	font-family: montserratregular;
+	font-size: 14px;
+	margin: 0 22px;
+	padding-bottom: 12px;
+	position: relative;
+	text-transform: uppercase;
+}
+.single-mega-item li.block:after {
+    background: #909090 none repeat scroll 0 0;
+    bottom: 8px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 25px;
+}
+.single-mega-item {
+    float: left;
+    width: 25%;
+    padding: 0;
+}
+.fixed {
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 99999;
+}
+ /*Sticky Menu*/
+.sticky {
+	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+	box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
+	left: 0;
+	margin: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+.sticky .main-menu > li > a {padding: 20px 10px;}
+.logo {
+	overflow: hidden;
+	padding: 33px 0;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.logo > a {display: inline-block;}
+.logo img{
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.sticky .logo img {
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	width: 160px;
+}
+.sticky .logo {padding: 17px 0;}
+.login-btn {
+	display: inline-block;
+	padding-left: 17px;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.sticky .login-btn {padding-left: 7px; padding-top: 17px;}
+.header-top {color: #ffffff; font-size: 13px;}
+.as-mainwrapper.wrapper-boxed .sticky {width: 1200px;}
+.logo.padding {padding: 38px 0 12px;}
+.pull-right.text-center {float: none !important; text-align: center;}
+.text-center nav#primary-menu {float: none;}
+/*----------------------------------------*/
+/*  2.3 Mobile Menu
+/*----------------------------------------*/
+.mobile-menu-area { display: none}
+.mean-container .mean-bar:after {display: none}
+.mean-container .mean-nav ul li a:hover {background: #fff;}
+.mean-container a.meanmenu-reveal span {background: #fff}
+.mean-container .mean-nav ul li a {
+    background: #ffffff none repeat scroll 0 0;
+    color: #2D3E50;
+    display: block;
+}
+.mean-container .mean-nav ul li a.mean-expand {background: none; top: -4px;}
+.mean-container .mean-nav ul li a.mean-expand:hover {background: none}
+.mean-container .mean-nav ul li li a {
+    color: #4e4f54;
+    opacity: .90;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    border-top: 0;
+}
+.mean-container .mean-nav ul li li{background: #fff}
+.mean-container a.meanmenu-reveal {color: #2D3E50}
+.meanmenu-reveal.meanclose:hover {color: #000}
+.mean-container a.meanmenu-reveal:hover span {background: #000}
+.mean-last {margin-bottom: 20px}
+.mobile-menu {position: relative}
+.mean-container .mean-bar:before {
+    color: #ffffff;
+    content: "MENU";
+    font-size: 18px;
+    font-weight: 600;
+    left: 0;
+    position: absolute;
+    top: 11px;
+}

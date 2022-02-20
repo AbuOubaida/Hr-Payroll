@@ -1,0 +1,306 @@
+/* Large desktop :1920px. */
+@media (min-width: 1920px) {
+    .container {width: 1230px}
+    .as-mainwrapper .container {width: 1200px}
+    .preview-2 .nivo-directionNav a.nivo-prevNav {left: 60px;}
+    .preview-2 .nivo-directionNav a.nivo-nextNav {right: 60px;}
+    .video-wrapper, .video-banner {height: 630px}
+	.gallery-img h2 {margin: 69px auto 10px;}
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+    .container {width:970px}
+    .as-mainwrapper.wrapper-boxed {width: 970px}
+    .as-mainwrapper.wrapper-boxed .sticky {width: 970px}
+    .main-menu > li > a {padding: 38px 4px;}  
+    .address {padding-left: 20px;}
+    .time-payment {padding-left: 5px;}
+    .sticky .main-menu > li > a {padding: 20px 4px;}
+    .single-footer-widget > span i {width: 21px;}
+    .gallery-img h2 {margin: 35px auto 10px;}
+    .gallery-img p {margin: 0;}
+    .video-wrapper, .video-banner {height: 550px}
+    .video-section img {width: 100%;}
+    .advertise-content h3 {font-size: 24px;}
+    p.sub-title {font-size: 16px;}
+    h1.title1 {font-size: 65px;}
+    .banner-content .text-content-wrapper {float: none;} 
+    .blog-post-info span {padding-left: 0;}
+    .single-comment.ml-130 {margin-left: 86px;}
+    .job-title h4 {font-size: 17px;}
+    .job-title h5 {font-size: 14px;}
+    .keyword {padding-left: 0;}
+    .keyword a.button {margin-right: 4px; padding: 0 18px;}
+    .form-container {padding: 38px 64px;}
+	.button-style-two.col-4 { width: 66%;}
+	.photo-uploader {width: 100%;}
+    .subscribe-container {padding: 16px 27px 21px;}
+	.subscribe-container > p {margin-bottom: 15px;}
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {width:750px}
+    .as-mainwrapper.wrapper-boxed {width:750px}
+    .mobile-menu-area {display: block}
+    .as-mainwrapper.wrapper-boxed .sticky {width: 750px;}
+    .sticky {position: inherit;}  
+    .logo {text-align: center;}
+    .sticky .logo img {width: auto;}
+    h1.title1 {font-size: 53px;}
+    .background-area h1.title1 {font-size: 49px;}
+	h1.title1.text-medium {
+		font-size: 53px;
+		line-height: 62px;
+		margin-bottom: 5px
+	}
+    .banner-content .text-content-wrapper {float: none; margin-right: 0}
+    p.sub-title {font-size: 15px;}
+    .banner-readmore {margin-top: 30px;}
+    .time-payment {padding-left: 0;}
+    .job-title h4 {font-size: 17px;}
+    .job-title {width: 47%;}
+    .address {padding-left: 0; width: 32%;}
+    .video-section img {width: 100%;}
+    .carousel-style-two.owl-theme .owl-controls .owl-nav div.owl-prev {left: -3%}
+    .carousel-style-two.owl-theme .owl-controls .owl-nav div.owl-next{right: -3%; left: auto}
+    .single-footer-widget > span i {font-size: 18px; width: 27px;}
+    .blog-post-info > span:nth-child(2) {padding-left: 27px;}
+    .gallery-img h2 {margin: 50px auto 10px;}
+    .video-wrapper, .video-banner {height: 430px}
+    .preview-2 .nivo-directionNav a {display: none} 
+    .single-blog {margin-bottom: 50px;}
+    .blog-posts .col-md-6:last-child .single-blog {margin: 0;}
+    .pagination-content .pagination {margin-top: 50px;}
+    .pt-120 {padding-top: 70px;}
+    .pb-120 {padding-bottom: 70px;}
+    .pb-110 {padding-bottom: 70px;}
+    .single-sidebar-widget:last-child {margin: 0;}
+    .single-comment.ml-130 {margin-left: 86px;}
+    .form-container {padding: 38px 64px;}
+    .select.large {width: 157px;}
+    .select.small {width: 144px;}
+    .select.medium {width: 132px;}
+    .job-title h4 {font-size: 17px;}
+    .job-title h5 {font-size: 14px;}
+    .keyword {padding-left: 0;}.keyword a.button {margin-right: 0; padding: 0 6px;}
+    .candidates-area .job-title {padding-left: 18px; width: 36%;}
+    .candidates-area .address {width: 25%;}
+    .keyword {width: 37%;}
+    .job-title .pl-30 {padding-left: 15px;}
+    .contact-form {margin-top: 70px;}
+    .contact-form-and-info {width: 850px;}
+    .blog-carousel .single-blog:last-child {margin: 0;}
+    .ptb-120 {padding: 70px 0;}
+	.mb-120 {margin-bottom: 70px;}
+	.button-style-two.col-4 {width: 62%;}
+	.photo-uploader {width: 100%;}
+    .subscribe-container {padding: 13px 20px 15px;}
+	.subscribe-container > p {margin-bottom: 15px;}
+	.fixed {position: inherit;}
+	.center .banner-content .text-content-wrapper, .banner-content .text-content-wrapper.m-0 {float: none; margin: auto;}
+	.single-job-post-area .area-title {margin-bottom: 20px;}
+	.advertise-content {
+      margin-top: 20px;
+      padding-left: 0;
+    }
+    .carousel-style-two.owl-theme .owl-controls .owl-nav div.owl-next {
+      right: 0;
+    }
+    .carousel-style-two.owl-theme .owl-controls .owl-nav div.owl-prev {
+      left: 0;
+    }
+    
+}
+    
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .container {width:300px}
+    .as-mainwrapper.wrapper-boxed {width:300px}
+    .mobile-menu-area {display: block;}
+    #sticky-header, .as-mainwrapper.wrapper-boxed #sticky-header, #sticky-header.fixed {position: inherit;}
+    #sticky-header {width: auto;}
+    .logo {text-align: center;}
+    .sticky .logo img {width: auto;}
+    .logo img {transition: none 0s ease 0s ;}   
+    .ptb-120 {padding-bottom: 70px; padding-top: 70px;}
+    .pb-120{padding-bottom: 70px} 
+    .pb-110{padding-bottom: 60px} 
+    .pb-100{padding-bottom: 50px} 
+    .pt-120{padding-top: 70px} 
+    .pt-110{padding-top: 60px} 
+    .pt-100{padding-top: 50px} 
+    .preview-2 .nivo-directionNav a.nivo-prevNav {left: 2px;}
+    .preview-2 .nivo-directionNav a {
+        height: 55px;
+        margin-top: -27.5px;
+        padding: 0;
+        width: 55px;
+    }
+    .preview-2 .nivo-directionNav a.nivo-nextNav {right: 2px;}
+	h1.title1 {font-size: 21px; margin-bottom: 5px; margin-top: 0}
+	.background-area h1.title1 {font-size: 18px;}
+	h1.title1.text-medium {
+		font-size: 21px;
+		line-height: 30px;
+		margin-bottom: 15px;
+	}
+    .banner-readmore {margin: 0 auto;}
+    .text-content {text-align: center;}
+    .job-title, .address, .time-payment {
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .job-title span, .job-title div { width: 100%;}
+    .job-title div {padding: 0;}
+    .address span {margin: 10px;}
+    .time-payment {padding: 0 0 20px 10px;}
+    .sticky.header-area {position: inherit;}
+    .section-title h2 {font-size: 28px;} 
+    .video-section img {width: 100%;}
+    .single-fun-factor {margin-bottom: 40px;}
+    .fun-factor-area .col-md-3:last-child .single-fun-factor {margin: 0;}
+    .advertise-content > h3 {font-size: 22px; line-height: 33px;}
+    .advertise-content {padding: 0;}
+    .advertise-content p {padding: 0;}
+    .blog-post-info span {padding-left: 0px;}
+    .blog-date {height: 55px; padding: 7px 0; width: 48px;}
+    .blog-post-info span i {margin-right: 0;}
+    .blog-text h5 {padding-top: 15px;}
+    .owl-controls {display: none;}
+    .social-links {float: left !important; margin-top: 17px;}
+    .single-footer-widget {margin-bottom: 30px;}
+    .footer-widget-area .col-md-3:last-child .single-footer-widget {margin: 0;}
+    .footer-text {line-height: 20px;}
+    .job-title::after {display: none}
+    .single-job-post:hover:after{opacity: 1}
+    .gallery-img h2 {line-height: 22px; margin: 27px auto 10px;}
+    .gallery-img p {margin: 0 8px;}
+    .gallery-area .col-md-4 {margin-bottom: 30px;}
+    .gallery-area .col-md-4:last-child {margin: 0;}
+    .video-wrapper, .video-banner {height: 280px}
+    .preview-2 .nivo-directionNav a {display: none}
+    .banner-content .text-content-wrapper{margin: auto; float: none}
+    .pagination-content .pagination {margin-top: 50px; margin-bottom: 40px}
+    .single-sidebar-widget:last-child {margin: 0;}
+    .single-blog {margin-bottom: 50px;}
+    .blog-posts .col-md-6:last-child .single-blog {margin: 0;}
+    .recent-post-item h5 {font-size: 16px}
+    .single-comment.ml-130 {margin-left: 0px;}
+    .blog-post-info span i {margin-right: 2px;}
+    .blog-post-info > span.l-text {font-size: 12px;}
+    .author-image {margin-right: 13px;}
+    .comment-time, span.reply {display: block; float: left;}
+    .author-info > h4 {display: block; margin: 0;}
+    .comment-text > p {
+        display: block;
+        float: left;
+        overflow: hidden;
+    }
+    .single-comment:last-child .comment-text {border: 0 none;}
+    .form-container {padding: 38px 64px;}
+    .select.large, .select.small, .select.medium {width: 100%; margin-bottom: 10px}
+    button.button-dark {width: 100%}   
+    .keyword {
+        padding-bottom: 12px;
+        padding-left: 0;
+        padding-top: 5px;
+        text-align: center;
+        width: 100%;
+    }
+    .keyword a.button {margin-right: 0; padding: 0 7px;}
+    .breadcrumb-banner-area {padding-top: 70px;}
+    .breadcrumb-banner-area .form-container {margin-top: 50px;}
+    .contact-form { margin-top: 70px; padding: 40px 10px;}
+    .contact-form-and-info {width: 300px;}
+    .contact-form .col-5 {width: 100%;}
+    .single-contact-info {margin-bottom: 30px; width: 100%;}
+    .single-contact-info:last-child {margin: 0;}
+    .pb-115 {padding-bottom: 70px;}
+    .blog-carousel .single-blog:last-child {margin: 0;}
+	.header-top {display: none;}
+	.mb-120{margin-bottom: 70px}
+	#form-pop-up {min-width: 292px; padding: 10px 90px; top: 52%;}
+	.signup-form #form-pop-up {top: 52%;}
+	.form-pop-up-content {padding-left: 20px; padding-right: 20px;}
+	#form-pop-up .hide-popup {right: 78px; top: 0;}
+	.button-style-two.col-4 {width: 66%;}
+	.account-form-container {margin-top: 35px;}
+	.mb-120 {margin-bottom: 70px;}
+	.account-area .button-style-two.col-4 {padding: 0 10px; width: 100%;}
+	.photo-uploader {width: 100%;}
+	.single-info label, .single-info label.lg-text {width: 100%;}
+	.desc.fix.ml-160 {margin-left: 96px;}
+	.single-job-form .ml-160 {margin-left: 100px;}
+	.breadcrumb-text h2 {font-size: 30px; line-height: 35px;}
+	.single-job-content .title {padding-top: 0;}
+	.single-info label {float: left; width: 100%;}
+	.form-box {width: 100%;}
+	.map-area.ml-160 { margin-left: 0;}
+	.desc {margin-left: 0;}
+	.uploader, .photo-uploader {width: 100%;}
+	.max-size {margin-left: 0;}
+	.single-job-form .ml-160 {margin-left: 0;}
+	.mb-120 {margin-bottom: 70px;}
+	.button.slider-btn {padding: 2px 18px;}
+	.modal-dialog {width: 300px;}
+    .subscribe-container {padding: 16px 20px 20px;}
+    .footer-info-container {padding-bottom: 50px; padding-top: 80px;}
+    .footer-info > span { margin: 15px 0 0;}
+    .single-footer-widget {margin-bottom: 27px;}
+    .footer-container {padding: 30px 0 25px;}
+    .footer-container .social-links-three {
+        float: none;
+        margin-top: 12px;
+        text-align: center;
+    }
+    .footer-container span {display: block; text-align: center;}
+	.fixed {position: inherit;}
+	.single-job-post-area .area-title {margin-bottom: 20px;}
+	.desc.fix {overflow: visible;}
+	.advertise-content {
+      margin-top: 20px;
+      padding-left: 0;
+    }
+	.breadcrumb-bar li {line-height: 18px;}
+    
+    .drop-mrg .btn-group {
+      margin-bottom: 20px;
+    }
+.btn {
+  padding: 6px 11px;
+}
+.btn-lg, .btn-group-lg > .btn {
+  padding: 10px 14px;
+}    
+    
+    
+    
+    
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}
+    .as-mainwrapper.wrapper-boxed {width:450px}
+    .gallery-img h2 {margin: 83px auto 10px;}
+    .video-wrapper, .video-banner {height: 320px}
+	.button.slider-btn {padding: 11px 38px;}
+	h1.title1 {font-size: 34px; margin-bottom: 20px;}
+	.background-area h1.title1 {font-size: 30px;}
+	.uploader, .photo-uploader {width: 259px;}
+	.max-size {margin-left: 160px;}
+    .drop-mrg .btn-group {
+      margin-bottom: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}

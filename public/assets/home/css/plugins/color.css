@@ -1,0 +1,24 @@
+/*-------Color Style--------*/
+button, input, .carousel-style-one.owl-theme .owl-controls .owl-nav div:hover, .carousel-style-two.owl-theme .owl-controls .owl-nav div, .pagination-content .pagination li a:hover, .pagination-content .pagination li.active a, .main-menu > li:hover > a, .dropdown > li:hover > a, .single-mega-item > li:hover > a,.mean-container .mean-nav ul li a:hover, .single-blog:hover .blog-text > h5, .breadcrumb-bar a:hover, .mark-icon::after, .sidebar-widget-lists > li a:hover, .tags-and-links .social-links a:hover i, .author-info > h4 a:hover, span.reply a, .footer-list a:hover, .recent-post-item:hover h5 a, .color-blue, .fixed.sticky .main-menu.text-white > li:hover > a, .footer-widget-list li a:hover, .footer-container .social-links-three > a:hover, ul.inside-menu > li:hover a  {
+    color: #14b1bb;
+}
+.blue-bg, .separator, .separator span, .mobile-menu-area, .job-title::after, .advertise-content h3::before, .blog-date, .background-title, .photo-uploader .action, h4.title::after, .modal button.close, .single-contact-icon, .social-links a:hover, .header-top, .mean-container .mean-nav {
+    background: #14b1bb;
+}
+a.button, button {
+    background-color: #14b1bb;
+}
+.dropdown, .mega-menu-area, .blog-image{
+    border-color: #14b1bb;
+}
+.preview-2 .nivo-directionNav a:hover{background: rgba(20, 177, 187, 0.5) }
+.header-top.bg-white {background: #ffffff none repeat scroll 0 0;}
+.header-top.border-top {
+	color: #333333;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.header-top.border-top {
+	border-top: 2px solid #14B1BB;
+}
+.color-overlay::before {background: rgba(20, 177, 187, 0.5) none repeat scroll 0 0;}
+.bg-opacity-blue-70::before {background: rgba(20, 177, 187, 0.7) none repeat scroll 0 0;}

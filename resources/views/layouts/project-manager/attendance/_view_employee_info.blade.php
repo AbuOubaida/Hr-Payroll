@@ -1,0 +1,44 @@
+@if(@$employee)
+    <thead>
+    <tr>
+        <th>Image</th>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Department</th>
+        <th>Position</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @if($employee->profile)
+                <td><img src="{{url('image/employee/profile/'.$employee->profile)}}" alt="Image" height="20px"></td>
+            @else
+                <td style="font-size: 28px;"><i class="mdi mdi-account-box-outline"></i></td>
+            @endif
+            <td>{{$employee->emp_no}}</td>
+            <td>{{$employee->emp_name}}</td>
+            <td>{{$employee->email}}</td>
+            <td>{{$employee->phone}}</td>
+            <td>{{$employee->dep_name}}</td>
+            <td>{{$employee->p_name}}</td>
+        </tr>
+@else
+    <thead>
+    <tr>
+        <th>Image</th>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Department</th>
+        <th>Position</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="7" class="text-center">Not Found!</td>
+        </tr>
+    </tbody>
+@endif

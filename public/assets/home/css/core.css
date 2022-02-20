@@ -1,0 +1,23 @@
+/*------------------------------------------------------------------------------
+
+Template:  Theme Name
+Author: 
+Version: 1
+Design and Developed by: 
+
+Note: This core style file includes all external plugins css file.
+
+-------------------------------------------------------------------------------*/
+
+@import url("font-awesome.min.css");
+@import url("material-design-iconic-font.css");
+@import url("material-design-iconic-font.min.css");
+@import url("plugins/meanmenu.min.css");
+@import url("plugins/animate.css");
+@import url("../lib/nivo-slider/css/nivo-slider.css");
+@import url("../lib/nivo-slider/css/preview.css");
+@import url("plugins/jquery-ui.min.css");
+@import url("plugins/owl.carousel.css");
+@import url("shortcode/default.css");
+@import url("plugins/animated-headlines.css");
+@import url("plugins/jquery.mb.YTPlayer.css");
